@@ -173,6 +173,16 @@ header .intro-text .skills {
     border: 0;
 }
 
+.github-fork-ribbon {
+    background-color: white;
+}
+
+.github-fork-ribbon a {
+
+    color: black;
+    text-shadow: 0 -1px rgba(155,155,155,.2);
+}
+
 section {
     padding: 100px 0;
 }
