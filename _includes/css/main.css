@@ -80,6 +80,9 @@ hr.star-primary:after {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    height: 100vh;
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
