@@ -3,7 +3,7 @@ title: Kitz
 email: mazjaleel@gmail.com
 url: http://kitz.io
 description: "Kitz is a collection of frameworks written in Swift. It includes small, self-contained, tested, high-quality frameworks, including statically typed Key-value store, managing NSNotificationCenter, launching and deeplinking into external applications, and much more!"
-skills: "Cross-platform • Full Test Coverage • Transparent"
+skills: "Cross-platform  •  Full Test Coverage  •  Modular"
 meta_author: Jaleel Maz
 
 # Google webmaster tools
