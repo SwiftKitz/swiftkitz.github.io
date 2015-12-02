@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Available Kitz</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -17,7 +17,11 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <div style="text-align: center; width: 360px; height: 260px; background-color: rgba(255, 133, 0, 0.05)">
+                                <span style="font-size: 7em">{{ post.icon }}</span><br/>
+                                <span style="font-size: 3em">{{ post.title }}</span>
+                            </div>
+                            <!--<img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">-->
                         </a>
                     </div>
                 {% endfor %}
