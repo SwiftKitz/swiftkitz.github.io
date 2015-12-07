@@ -3,7 +3,7 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-sm-12 text-center">
                     <h2>Available Kitz</h2>
                     <hr class="star-primary">
                 </div>
@@ -14,14 +14,12 @@
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <div style="text-align: center; width: 360px; height: 260px; background-color: rgba(255, 133, 0, 0.05)">
-                                <span style="font-size: 7em">{{ post.icon }}</span><br/>
-                                <strong><span style="font-size: 3em">{{ post.title }}</span></strong>
+                            <div class="portfolio-detail">
+                                <span class="icon img-responsive">{{ post.icon }}</span><br/>
+                                <strong><span class="title">{{ post.title }}</span></strong>
                             </div>
-                            <!--<img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">-->
                         </a>
                     </div>
                 {% endfor %}

@@ -232,7 +232,7 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -253,6 +253,19 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-detail {
+    text-align: center;
+    background-color: rgba(255, 133, 0, 0.05);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-detail .icon {
+    font-size: 7em;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-detail .title {
+    font-size: 2.5em;
 }
 
 #portfolio * {
