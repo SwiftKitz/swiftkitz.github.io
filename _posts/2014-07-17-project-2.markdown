@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 title: Datez
 icon: 📅
-description: Compact dates library to get sh*t done!
+description: Breeze through NSDate, NSDateComponents, and NSTimeInterval!
 gist: 3365f51699896e828ea8
 
 ---
