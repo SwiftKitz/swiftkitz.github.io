@@ -2,7 +2,7 @@ Kitz Web Cousin
 =========================
 
 
-You can visit it [here](http://kitz.io)
+You can visit it [here](https://swiftkitz.github.io/)
 
 
 
